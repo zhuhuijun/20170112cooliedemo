@@ -1,0 +1,12 @@
+var year = require('../libs/year.js');
+var month = require('../libs/month.js');
+var mytest = require('../libs/mytest.js');
+var mytest2 = require('../libs/mytest2.js')();
+var mytest3 = require('../libs/mytest3.js')();
+console.info(mytest);
+mytest.sayName();
+mytest2.init();
+mytest2.showlog();
+mytest3.init();
+mytest3.showlog();
+alert('today is ' + year() + '-' + month());
